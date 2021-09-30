@@ -1,0 +1,6 @@
+#circle{
+    width: 500px;
+    aspect-ratio: 1/1;
+    background: red;
+    border-radius: 50%;
+}
