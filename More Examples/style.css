@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+body{
+    background: white;
+}
+
+#hover-example{
+    width: 40%;
+    height: 20vh;
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.6em;
+    font-weight: bolder;
+    background-color: #4444aa;
+    color: white;
+    margin: 3rem auto;
+}
+
+#list-script{
+    width: 40%;
+    min-height: 30vh;
+    margin: 3rem auto;
+    padding: 2rem;
+    border: 3px solid black;
+}
+
+.words{
+    padding: 2rem;
+}
+
+.words li::marker{
+    content: "🥫";
+}
